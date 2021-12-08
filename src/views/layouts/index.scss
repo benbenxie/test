@@ -1,0 +1,47 @@
+#app {
+  height: 100%;
+  .app-container {
+    height: 100%;
+  }
+}
+.fr {
+  float: right;
+}
+input::-webkit-input-placeholder {
+  color: #c0c4cc;
+  font-size: 30px;
+}
+input:-moz-placeholder {
+  color: #c0c4cc;
+  font-size: 30px;
+}
+input::-moz-placeholder {
+  color: #c0c4cc;
+  font-size: 30px;
+}
+input:-ms-input-placeholder {
+  color: #c0c4cc;
+  font-size: 30px;
+}
+/****
+** vant 样式修改
+**
+****/
+.van-index-bar__index {
+  color: #303133;
+}
+.van-sticky {
+  background: #fff;
+}
+.van-field__left-icon {
+  img {
+    width: 28px;
+    height: 28px;
+    vertical-align: text-bottom;
+  }
+}
+.van-field__left-icon {
+  margin-right: 12px;
+  position: relative;
+  bottom: 4px;
+}
